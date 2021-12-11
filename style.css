@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap'); /* Import link for font from Google Fonts */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+.container {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Ubuntu', sans-serif; /* Font style */
+    background: #fff;
+    color: #fff; /* Text color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.card {
+    width: 300px; /* 300px x 250px (width x height): standard IAB banner size */
+    height: 250px;
+    box-shadow: 0 3px 10px #000;
+    perspective: 1000px;
+}
+  
+.banner {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background: url(images/bg.png) center / cover no-repeat;
+    padding: 40px;
+    box-sizing: border-box;
+    border: 2px solid #000;
+    outline: 3px solid #fff;
+}
+
+.card h1 {
+    position: absolute;
+    font-size: 24px; /* Font size of page */   
+    text-align: left;
+    top: 32.5%;
+    left: 10%;
+}
+
+.logo {
+    position: relative;
+    width: 205px;
+    top: 7.5px;
+    right: -95px;
+    cursor: pointer;
+}
+
+.packshot {
+    position: absolute;
+    width: 275px;
+    right: -2.5px;
+    bottom: 2px;
+}
+
+button {
+    width: 57%;
+    background: green;
+    border: none;
+    margin: 35px 0 10px;
+    height: 40px;
+    font-size: 12px; 
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 0 10x;
+    box-sizing: border-box;
+    outline: none;
+    color: #fff; /* Button text color */
+    cursor: pointer;
+    z-index: 1;
+}
+
+.btn {
+    position: absolute;
+    bottom: 4%;
+    left: 9%;
+    margin-top: 50%;
+}
+
+.arrow {
+    font-size: 12px;
+}
+
+  
+
+
+
+
+
+
+
+
+
+
+
